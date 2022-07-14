@@ -1,0 +1,168 @@
+{
+  "rowReference": [
+    {
+      "title": "Editing Checkpoints",
+      "order": [
+        "Grammatical Accuracy Check",
+        "Linguistic Quality Check",
+        "Manuscript Readability and Engagement Enhancement",
+        "Terminology Check",
+        "Paragraph Organization",
+        "Content Organization",
+        "Scientific Precision Check",
+        "Journal Submission Requirements Check",
+        "Academic Article Component Check"
+      ]
+    },
+    {
+      "title": "Experts",
+      "order": ["Professional Native Editors"]
+    },
+    {
+      "title": "Proofreading Process",
+      "order": ["Step editing process"]
+    },
+    {
+      "title": "Included Support Services",
+      "order": [
+        "Format Adjustment",
+        "20% Word Reduction",
+        "Unlimited Q&A With Editing Team"
+      ]
+    },
+    {
+      "title": "Deliverables",
+      "order": [
+        "Edited Manuscript",
+        "Manuscript Evaluation Report",
+        "English Proofreading Certificate"
+      ]
+    },
+    {
+      "title": "Paid Options",
+      "order": [
+        "Cover Letter",
+        "Recalibration (60% discouont each time)",
+        "Figure & Table Formatting",
+        "Plagiarism Check"
+      ]
+    }
+  ],
+  "table": [
+    {
+      "title": "Standard Editing",
+      "price": 10,
+      "points": ["2 Professional Native Editors", "3 Step Editing Process"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Editing Checkpoints",
+          "data": [
+            "Grammatical Accuracy Check",
+            "Linguistic Quality Check",
+            "Terminology Check",
+            "Journal Submission Requirements Check"
+          ]
+        },
+        {
+          "title": "Experts",
+          "eData": {
+            "2 Professional Native Editors": 2
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 3
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Format Adjustment",
+            "20% Word Reduction",
+            "Unlimited Q&A With Editing Team"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "data": [
+            "Edited Manuscript",
+            "Manuscript Evaluation Report",
+            "English Proofreading Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Cover Letter",
+            "Recalibration (60% discouont each time)",
+            "Figure & Table Formatting",
+            "Plagiarism Check"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Advanced Editing",
+      "price": 14,
+      "points": ["3 Professional Native Editors", "5 Step Editing Process"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Editing Checkpoints",
+          "data": [
+            "Grammatical Accuracy Check",
+            "Linguistic Quality Check",
+            "Manuscript Readability and Engagement Enhancement",
+            "Terminology Check",
+            "Paragraph Organization",
+            "Content Organization",
+            "Scientific Precision Check",
+            "Journal Submission Requirements Check",
+            "Academic Article Component Check"
+          ]
+        },
+        {
+          "title": "Experts",
+          "eData": {
+            "Professional Native Editors": 3
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 5
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Format Adjustment",
+            "20% Word Reduction",
+            "Unlimited Q&A With Editing Team",
+            "Unlimited Recalibration (Free upto 20% addition)"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "data": [
+            "Edited Manuscript",
+            "Cover Letter",
+            "Manuscript Evaluation Report",
+            "English Proofreading Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Figure & Table Formatting",
+            "Plagiarism Check",
+            "Journal Response Support",
+            "Pre-peer Review"
+          ]
+        }
+      ]
+    }
+  ]
+}

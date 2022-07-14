@@ -1,0 +1,308 @@
+{
+  "rowReference": [
+    {
+      "title": "Publication Support Features",
+      "order": [
+        "Advanced Editing",
+        "Advanced Translation",
+        "Journal Selection",
+        "Pre-Peer Review",
+        "Format Adjustment",
+        "Figure & Table Formatting",
+        "Journal Comment Response Support",
+        "Plagiarism Check",
+        "Cover Letter",
+        "Unlimited Q&A"
+      ]
+    },
+    {
+      "title": "Experts",
+      "order": [
+        "Professional Native Editors",
+        "Peer Reviewers",
+        "Bilingual Translators"
+      ]
+    },
+    {
+      "title": "Proofreading Process",
+      "order": ["Step editing process"]
+    },
+    {
+      "title": "Included Support Services",
+      "order": [
+        "Format Adjustment",
+        "Advanced Translation",
+        "Advanced Editing",
+        "Journal Selection",
+        "Pre-Peer Review",
+        "Graphic & Illustration Adjustment",
+        "Journal Comment Response Support",
+        "Plagiarism Check",
+        "Cover Letter",
+        "Unlimited Q&A"
+      ]
+    },
+    {
+      "title": "Deliverables",
+      "order": [
+        "Translated Manuscript",
+        "Edited Manuscript",
+        "Manuscript Evaluation Report",
+        "Plagiarism Report",
+        "Journal Selection Report",
+        "Edited/Peer Reviewed Manuscript",
+        "English Proofreading Certificate",
+        "Cover Letter",
+        "Jp-En Translation Certificate"
+      ]
+    },
+    {
+      "title": "Paid Options",
+      "order": [
+        "Cover Letter",
+        "Recalibration (60% discouont each time)",
+        "Figure & Table Formatting",
+        "Plagiarism Check",
+        "Advanced Translation",
+        "Journal Selection",
+        "Figure & Table Formatting",
+        "Journal Comment Response Support"
+      ]
+    }
+  ],
+  "table": [
+    {
+      "title": "Silver Pack",
+      "price": 10,
+      "points": ["2 Professional Native Editors"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Publication Support Features",
+          "data": [
+            "Advanced Editing",
+            "Format Adjustment",
+            "Figure & Table Formatting",
+            "Journal Comment Response Support",
+            "Plagiarism Check",
+            "Unlimited Q&A"
+          ]
+        },
+        {
+          "title": "Experts",
+          "data": {
+            "Professional Native Editors": 2
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 3
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Advanced Editing",
+            "Pre-Peer Review",
+            "Format Adjustment",
+            "Plagiarism Check",
+            "Unlimited Q&A"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "data": [
+            "Edited Manuscript",
+            "Manuscript Evaluation Report",
+            "English Proofreading Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Cover Letter",
+            "Recalibration (60% discouont each time)",
+            "Figure & Table Formatting",
+            "Plagiarism Check",
+            "Advanced Translation",
+            "Journal Selection",
+            "Figure & Table Formatting",
+            "Journal Comment Response Support"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gold Pack",
+      "price": 14,
+      "points": [
+        "3 Professional Native Editors",
+        "2 Peer Reviewers",
+        "5 Step Editing Process"
+      ],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Publication Support Features",
+          "data": [
+            "Advanced Editing",
+            "Journal Selection",
+            "Pre-Peer Review",
+            "Format Adjustment",
+            "Figure & Table Formatting",
+            "Journal Comment Response Support",
+            "Plagiarism Check",
+            "Cover Letter",
+            "Unlimited Q&A"
+          ]
+        },
+        {
+          "title": "Experts",
+          "data": {
+            "Professional Native Editors": 3,
+            "Peer Reviewers": 2
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 5
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Format Adjustment",
+            "Advanced Translation",
+            "Advanced Editing",
+            "Journal Selection",
+            "Pre-Peer Review",
+            "Graphic & Illustration Adjustment",
+            "Journal Comment Response Support",
+            "Plagiarism Check",
+            "Cover Letter",
+            "Unlimited Q&A"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "data": [
+            "Translated Manuscript",
+            "Edited Manuscript",
+            "Manuscript Evaluation Report",
+            "Plagiarism Report",
+            "Journal Selection Report",
+            "Edited/Peer Reviewed Manuscript",
+            "English Proofreading Certificate",
+            "Cover Letter",
+            "Jp-En Translation Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": []
+        }
+      ]
+    },
+    {
+      "title": "Translation Pack",
+      "price": 16,
+      "points": [
+        "Professional Native Editors",
+        "Peer Reviewers",
+        "Bilingual Translators",
+        "Step editing process"
+      ],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Features",
+          "data": ["Advanced Translation"]
+        },
+        {
+          "title": "Experts",
+          "data": {
+            "Professional Native Editors": 5,
+            "Peer Reviewers": 6
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 3
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Format Adjustment",
+            "Advanced Translation",
+            "Advanced Editing",
+            "Journal Selection",
+            "Pre-Peer Review",
+            "Graphic & Illustration Adjustment",
+            "Journal Comment Response Support",
+            "Plagiarism Check",
+            "Cover Letter",
+            "Unlimited Q&A"
+          ]
+        },
+
+        {
+          "title": "Deliverables",
+          "data": [
+            "Translated Manuscript",
+            "Edited Manuscript",
+            "Manuscript Evaluation Report",
+            "Plagiarism Report",
+            "Journal Selection Report",
+            "Edited/Peer Reviewed Manuscript",
+            "English Proofreading Certificate",
+            "Cover Letter",
+            "Jp-En Translation Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": []
+        },
+        {
+          "title": "Custom Pack Features",
+          "data": [
+            {
+              "title": "Journal Selection",
+              "content": "Our team of experts take over and help you with everything that’s needed to submit your manuscript.",
+              "price": 10
+            },
+            {
+              "title": "Pre-Peer Review",
+              "content": "Our team of experts take over and help you with everything that’s needed to submit your manuscript.",
+              "price": 10
+            },
+            {
+              "title": "Resubmission Support",
+              "content": "Our team of experts take over and help you with everything that’s needed to submit your manuscript.",
+              "price": 10
+            },
+            {
+              "title": "Figure and Table Formatting",
+              "content": "Our team of experts take over and help you with everything that’s needed to submit your manuscript.",
+              "price": 10
+            },
+            {
+              "title": "Manuscript Formatting",
+              "content": "Our team of experts take over and help you with everything that’s needed to submit your manuscript.",
+              "price": 10
+            },
+            {
+              "title": "Plagiarism Check",
+              "content": "Our team of experts take over and help you with everything that’s needed to submit your manuscript.",
+              "price": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "rowReference": [
+    {
+      "title": "Publication Support Features",
+      "order": [
+        "Online Presentation Practice",
+        "- 5 Sessions",
+        "- 10 Sessions",
+        "Advanced Manuscript & Slide Editing",
+        "Advanced Manuscript & Slide Translation",
+        "Figure & Table Formatting"
+      ]
+    },
+    {
+      "title": "Experts",
+      "order": [
+        "Native Presentation Expert",
+        "Professional Native Editors",
+        "Bilingual Translators"
+      ]
+    },
+    {
+      "title": "Proofreading Process",
+      "order": []
+    },
+    {
+      "title": "Included Support Services",
+      "order": [
+        "Figure & Table Formatting",
+        "Advanced Manuscript & Slide Editing",
+        "Advanced Manuscript & Slide Translation"
+      ]
+    },
+    {
+      "title": "Deliverables",
+      "order": [
+        "One on One Live Online Practice Sessions",
+        "Edited Manuscript",
+        "Edited Slide",
+        "English Proofreading Certificate",
+        "Translated Manuscript",
+        "Cover Letter",
+        "Jp-En Translation Certificate"
+      ]
+    },
+    {
+      "title": "Paid Options",
+      "order": [
+        "Advanced Manuscript & Slide Editing",
+        "Figure & Table Formatting",
+        "Plagiarism Check",
+        "Online Presentation Practice",
+        "- 5 Sessions",
+        "- 10 -Sessions"
+      ]
+    }
+  ],
+  "table": [
+    {
+      "title": "Live Online Practice",
+      "price": 10,
+      "points": ["2 Professional Native Editors"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Publication Support Features",
+          "data": [
+            "Online Presentation Practice",
+            "- 5 Sessions",
+            "- 10 Sessions"
+          ]
+        },
+        {
+          "title": "Experts",
+          "data": {
+            "Professional Native Editors": 1
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {}
+        },
+        {
+          "title": "Included Support Services",
+          "data": ["Online Presentation", "- 5 Sessions", "- 10 Sessions"]
+        },
+        {
+          "title": "Deliverables",
+          "data": ["One on One Live Online Practice Sessions"]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Advanced Manuscript & Slide Editing",
+            "Figure & Table Formatting",
+            "Plagiarism Check"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Manuscript & Slide Editing",
+      "price": 14,
+      "points": ["2 Professional Native Editors"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Publication Support Features",
+          "data": [
+            "Advanced Manuscript & Slide Editing",
+            "Advanced Manuscript & Slide Translation"
+          ]
+        },
+        {
+          "title": "Experts",
+          "eData": {
+            "Professional Native Editors": 2
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {}
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Figure & Table Formatting",
+            "Advanced Manuscript & Slide Editing"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "data": [
+            "Edited Manuscript",
+            "Edited Slide",
+            "English Proofreading Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Plagiarism Check",
+            "Online Presentation Practice",
+            "- 5 Sessions",
+            "- 10 -Sessions"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Manuscript & Slide Translation",
+      "price": 16,
+      "points": ["2 Professional Native Editors", "2 Bilingual Translators"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Publication Support Features",
+          "data": [
+            "Advanced Manuscript & Slide Editing",
+            "Advanced Manuscript & Slide Translation",
+            "Figure & Table Formatting"
+          ]
+        },
+        {
+          "title": "Experts",
+          "data": {
+            "Professional Native Editors": 2,
+            "Bilingual Translators": 2
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {}
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Figure & Table Formatting",
+            "Advanced Manuscript & Slide Editing",
+            "Advanced Manuscript & Slide Translation"
+          ]
+        },
+
+        {
+          "title": "Deliverables",
+          "data": [
+            "Translated Manuscript",
+            "Cover Letter",
+            "Jp-En Translation Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Plagiarism Check",
+            "Online Presentation Practice",
+            "- 5 Sessions",
+            "- 10 -Sessions"
+          ]
+        }
+      ]
+    }
+  ]
+}

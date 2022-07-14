@@ -1,0 +1,161 @@
+{
+  "rowReference": [
+    {
+      "title": "Translation Service Features",
+      "order": [
+        "Thorough Grammatical Accuracy Check",
+        "Natural Linguistic Quality Check",
+        "Author Voice (intent) Cross-Check",
+        "Manuscript Readability and Engagement Enhancement",
+        "Terminology Check",
+        "Content Organization",
+        "Scientific Consistency & Precision Check",
+        "Journal Submission Requirements Check",
+        "Academic Article Component Check"
+      ]
+    },
+    {
+      "title": "Experts",
+      "order": ["Bilingual Translators", "Proffessional Native Editors"]
+    },
+    {
+      "title": "Translation Process",
+      "order": ["Step editing process"]
+    },
+    {
+      "title": "Included Support Services",
+      "order": [
+        "Format Adjustment",
+        "Unlimited Q&A With Editing Team",
+        "Additional Calibration (free upto 20% Addition; valid for 365 days)*"
+      ]
+    },
+    {
+      "title": "Deliverables",
+      "order": ["Translated Manuscript", "Jp-En Translation Certificate"]
+    },
+    {
+      "title": "Paid Options",
+      "order": [
+        "Journal Response Support",
+        "Pre-peer Review",
+        "Additional Translation Support (free upto 20% Addition; valid for 365 days)*",
+        "Figure & Table Formatting",
+        "Cover Letter",
+        "Additional Translation Support (free upto 60% Discount each time)",
+        "Additional Callibration (60% Discount each time)"
+      ]
+    }
+  ],
+  "table": [
+    {
+      "title": "Standard Academic Translation",
+      "price": 10,
+      "points": ["2 Bilingual Translators", "1 Proffessional Native Editor"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Editing Checkpoints",
+          "data": [
+            "Thorough Grammatical Accuracy Check",
+            "Natural Linguistic Quality Check",
+            "Author Voice (intent) Cross-Check",
+            "Terminology Check",
+            "Journal Submission Requirements Check"
+          ]
+        },
+        {
+          "title": "Experts",
+          "eData": {
+            "Bilingual Translators": 2,
+            "Proffessional Native Editors": 1
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 4
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": ["Format Adjustment", "Unlimited Q&A With Editing Team"]
+        },
+        {
+          "title": "Deliverables",
+          "data": ["Translated Manuscript", "Jp-En Translation Certificate"]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Figure & Table Formatting",
+            "Cover Letter",
+            "Additional Translation Support (free upto 60% Discount each time)",
+            "Additional Callibration (60% Discount each time)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Advanced Translation",
+      "price": 14,
+      "points": ["2 Bilingual Translators", "2 Proffessional Native Editors"],
+      "link": "https://www.google.com",
+      "rows": [
+        {
+          "title": "Editing Checkpoints",
+          "data": [
+            "Thorough Grammatical Accuracy Check",
+            "Natural Linguistic Quality Check",
+            "Author Voice (intent) Cross-Check",
+            "Manuscript Readability and Engagement Enhancement",
+            "Terminology Check",
+            "Content Organization",
+            "Scientific Consistency & Precision Check",
+            "Journal Submission Requirements Check",
+            "Academic Article Component Check"
+          ]
+        },
+        {
+          "title": "Experts",
+          "eData": {
+            "Professional Native Editors": 3,
+            "Bilingual Translators": 2,
+            "Proffessional Native Editors": 2
+          }
+        },
+        {
+          "title": "Proofreading Process",
+          "eData": {
+            "Step editing process": 6
+          }
+        },
+        {
+          "title": "Included Support Services",
+          "data": [
+            "Format Adjustment",
+            "Unlimited Q&A With Editing Team",
+            "Additional Calibration (free upto 20% Addition; valid for 365 days)*"
+          ]
+        },
+        {
+          "title": "Deliverables",
+          "data": [
+            "Translated Manuscript",
+            "Cover Letter",
+            "Jp-En Translation Certificate"
+          ]
+        },
+        {
+          "title": "Paid Options",
+          "data": [
+            "Figure & Table Formatting",
+            "Journal Response Support",
+            "Pre-peer Review",
+            "Additional Translation Support (free upto 20% Addition; valid for 365 days)*"
+          ]
+        }
+      ]
+    }
+  ]
+}

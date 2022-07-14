@@ -1,0 +1,56 @@
+{
+  "title": "One order One order One order One order",
+  "date": "21/04/2021",
+  "invoiceId": "sdfghjkl",
+  "totalCost": 123,
+  "documents": {
+    "Manuscripts7": {
+      "createdAt": "21/04/2021 09:04AM",
+      "updatedAt": "21/04/2021 09:04AM",
+      "files": [
+        {
+          "name": "sample13.docx",
+          "url": "http://dummy.doesnot.exit",
+          "type": "Microsoft DOC File",
+          "uploadedBy": "Rumiko Shika",
+          "uploadedDate": "21/04/2021 09:04AM",
+          "size": "2.0MB",
+          "storageUsed": "2.0MB"
+        },
+        {
+          "name": "sample14.docx",
+          "url": "http://dummy.doesnot.exit",
+          "type": "Microsoft DOC File",
+          "uploadedBy": "Rumiko Shika",
+          "uploadedDate": "21/04/2021 09:04AM",
+          "size": "2.0MB",
+          "storageUsed": "2.0MB"
+        }
+      ]
+    },
+    "Invoices8": {
+      "createdAt": "21/04/2021 09:04AM",
+      "updatedAt": "21/04/2021 09:04AM",
+      "files": [
+        {
+          "name": "sample15.docx",
+          "url": "http://dummy.doesnot.exit",
+          "type": "Microsoft DOC File",
+          "uploadedBy": "Rumiko Shika",
+          "uploadedDate": "21/04/2021 09:04AM",
+          "size": "2.0MB",
+          "storageUsed": "2.0MB"
+        },
+        {
+          "name": "sample16.docx",
+          "url": "http://dummy.doesnot.exit",
+          "type": "Microsoft DOC File",
+          "uploadedBy": "Rumiko Shika",
+          "uploadedDate": "21/04/2021 09:04AM",
+          "size": "2.0MB",
+          "storageUsed": "2.0MB"
+        }
+      ]
+    }
+  }
+}

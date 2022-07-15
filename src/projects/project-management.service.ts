@@ -605,7 +605,7 @@ export class ProjectManagementService {
     const projects = await this.projectRepository.aggregate(pipeline).toArray();
     return projects;
   }
-  async getProjectDataFOrGraph(user: User) {
+  async getProjectDataFOrGraph() {
     try {
       const curr = new Date();
       const first = curr.getDate() - curr.getDay();
@@ -650,6 +650,111 @@ export class ProjectManagementService {
       for (let data of weekData) {
         week.data.push(data.count);
         week.label.push(data._id);
+      }
+
+      return {
+        year: year,
+        month: month,
+        week: week,
+      };
+    } catch {
+      throw new NotFoundException('Some error occured');
+    }
+  }
+
+  async projectApprovedDataFilter(gte, lte) {
+    console.log('ehekja');
+    const pipeline = [
+      {
+        $match: {
+          $and: [
+            {
+              $expr: {
+                $gte: ['$createdDate', gte],
+              },
+            },
+            {
+              $expr: {
+                $lt: ['$createdDate', lte],
+              },
+            },
+          ],
+        },
+      },
+      {
+        $group: {
+          _id: '$payrollStatus',
+
+          count: {
+            $sum: 1,
+          },
+        },
+      },
+    ];
+    const projectApproved = await this.projectRepository
+      .aggregate(pipeline)
+      .toArray();
+    console.log(projectApproved);
+    return projectApproved;
+  }
+
+  async getApprovedProjectDataFOrGraph() {
+    try {
+      const curr = new Date();
+      const first = curr.getDate() - curr.getDay();
+      const last = first + 6;
+      const yearGte = new Date(new Date().getFullYear(), 0, 1).toISOString();
+      const yearLte = new Date(new Date().getFullYear(), 11, 31).toISOString();
+      const monthGte = new Date(
+        curr.getFullYear(),
+        curr.getMonth(),
+        1,
+      ).toISOString();
+      const monthLte = new Date(
+        curr.getFullYear(),
+        curr.getMonth() + 1,
+        0,
+      ).toISOString();
+      const weekGte = new Date(curr.setDate(first)).toISOString();
+      const weekLte = new Date(curr.setDate(last)).toISOString();
+      const yearData = await this.projectApprovedDataFilter(yearGte, yearLte);
+      const monthData = await this.projectApprovedDataFilter(
+        monthGte,
+        monthLte,
+      );
+      const weekData = await this.projectApprovedDataFilter(weekGte, weekLte);
+      const year = {
+        label: [],
+        data: [],
+      };
+      console.log(yearData);
+      // return yearData
+
+      for (let data of yearData) {
+        if (data._id == 'Processed') {
+          year.data.push(data.count);
+          year.label.push(data._id);
+        }
+      }
+      const month = {
+        label: [],
+        data: [],
+      };
+      for (let data of monthData) {
+        if (data._id === 'Processed') {
+          month.data.push(data.count);
+          month.label.push(data._id);
+        }
+      }
+      const week = {
+        label: [],
+        data: [],
+      };
+      for (let data of weekData) {
+        if (data._id === 'Processed') {
+          week.data.push(data.count);
+          week.label.push(data._id);
+        }
       }
 
       return {

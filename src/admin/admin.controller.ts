@@ -18,6 +18,7 @@ import { ProjectManagementService } from 'src/projects/project-management.servic
 import { DashboardService } from 'src/dashboard/dashboard.service';
 import { ReviewOrdersService } from 'src/review-orders/review-orders.service';
 import { OrdersService } from 'src/orders/orders.service';
+import { PayRollService } from 'src/payroll/payroll.service';
 
 @Controller('admin')
 @UseGuards(AuthGuard)
@@ -31,6 +32,7 @@ export class AdminController {
     private dashBoardService: DashboardService,
     private reviewOrderService: ReviewOrdersService,
     private orderService: OrdersService,
+    private payrollService:PayRollService
   ) {}
 
   @Get('/orders')
@@ -125,7 +127,12 @@ export class AdminController {
 
   @Get('/projectDataForGraph')
   async getProjectDataForGraph(@CurrentUser() user: User) {
-    return this.projectManagementService.getProjectDataFOrGraph(user);
+    return this.projectManagementService.getProjectDataFOrGraph();
+  }
+
+  @Get('/projectApprovedDataForGraph')
+  async getApprovedProjectDataForGraph(@CurrentUser() user: User) {
+    return this.projectManagementService.getApprovedProjectDataFOrGraph();
   }
 
   @Get('/employeeHeadCountDataForGraph')
@@ -146,5 +153,11 @@ export class AdminController {
   @Get('/orderDateWiseDataForGraph')
   async getDateWiseDataForGraph(@CurrentUser() user: User) {
     return this.orderService.getOrderDataForGraph();
+  }
+
+
+  @Get('/paryrollStatusDataForGraph')
+  async getparyrollStatusDataForGraph(@CurrentUser() user: User) {
+    return this.payrollService.getPayrollStatusDataFOrGraph();
   }
 }

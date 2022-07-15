@@ -22,6 +22,7 @@ import { ProjectManagementModule } from 'src/projects/project-management.module'
 import { DashboardModule } from 'src/dashboard/dashboard.module';
 import { ReviewOrdersModule } from 'src/review-orders/review-orders.module';
 import { OrdersModule } from 'src/orders/orders.module';
+import { PayrollModule } from 'src/payroll/payroll.module';
 
 @Module({
   imports: [
@@ -32,6 +33,7 @@ import { OrdersModule } from 'src/orders/orders.module';
     DashboardModule,
     ReviewOrdersModule,
     OrdersModule,
+    PayrollModule,
     TypeOrmModule.forFeature([
       OrderRepository,
       ProjectManagement,

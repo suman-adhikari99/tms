@@ -41,6 +41,29 @@ export class PayRollService {
   async getAll() {
     return this.payrollRepository.find();
   }
+  async getPayrollStatusDataFOrGraph() {
+    const pipeline = [
+      {
+        $group: {
+          _id: '$status',
+          count: {
+            $sum: 1,
+          },
+        },
+      },
+    ];
+    const payrollStatus = await this.payrollRepository
+      .aggregate(pipeline)
+      .toArray();
+    const response = {
+      label: [],
+      data: [],
+    };
+    for (let data of payrollStatus) {
+      response.label.push(data._id), response.data.push(data.count);
+    }
+    return response;
+  }
 
   async createPayroll(payRollDto: PayRollDto) {
     const { projectValidity } = payRollDto;
@@ -304,7 +327,7 @@ export class PayRollService {
           }
 
           projectTasksOfMember = employee.tasks;
-          
+
           benefits = await calculateBenefits(
             employee.salaryDetails.benefits ?? [],
             grossPay,
